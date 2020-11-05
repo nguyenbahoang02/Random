@@ -23,12 +23,12 @@ int main()
     }
     int a = sizeof(arr2)/sizeof(arr2[0]);
     sort(arr2, arr2 + a);
-    for (int v = 0; v < n; v++){
-        if (arr[v] == 0){
-            cout << arr2[dem] << " ";
-            dem++;
-        }
-        else cout << arr[v] << " ";
-    }
+    //for (int v = 0; v < n; v++){
+        //if (arr[v] == 0){
+            //cout << arr2[dem] << " ";
+            //dem++;
+        //}
+        //else cout << arr[v] << " ";
+    //}
     return 0;
 }
