@@ -34,3 +34,4 @@ int main()
     for (int v = 0; v<l; v++) cout << arr2[v] << " ";
     return 0;
 }
+12
