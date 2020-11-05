@@ -21,14 +21,15 @@ int main()
             l++; 
         }
     }
-    int a = sizeof(arr2)/sizeof(arr2[0]);
-    sort(arr2, arr2 + a);
-    //for (int v = 0; v < n; v++){
-        //if (arr[v] == 0){
-            //cout << arr2[dem] << " ";
-            //dem++;
-        //}
-        //else cout << arr[v] << " ";
-    //}
+    for (int f = 0; f<l; f++){
+        int temp;
+        for (int g = 0; g<l; g++){
+            if (arr2[g] > arr2[g+1]){
+                temp = arr2[g];
+                arr2[g] = arr2[g+1];
+                arr2[g+1] = temp;
+            }
+        }
+    }
     return 0;
 }
