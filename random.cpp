@@ -12,12 +12,12 @@ int main()
         for (int k = 2; k< arr[i]/2; k++){
             if (arr[i] % k == 0){
                 gay++;
-                arr[i] = 0;
                 break;
             }
         }
         if (gay == 0){
             arr2[l] = arr[i];
+            arr[i] = 0;
             l++; 
         }
     }
